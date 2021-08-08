@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/MasterTemplate.cshtml";
+    @model List<Bank.Model.BankTransaction>
+}
+
+<div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+
+        <table class="table">
+            <tr>
+                <th>
+                    Amount
+                </th>
+                <th>
+                    Type
+                </th>
+                <th>
+                    Date
+                </th>
+
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TransactionType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                </tr>
+
+
+            }
+
+
+
+        </table>
+    </div>
+</div>
+    
+
+    <input type="submit" value="export" class="btn btn-primary" onclick="location.href='@Url.Action("GenerateCsv", "Transaction")'" />
+

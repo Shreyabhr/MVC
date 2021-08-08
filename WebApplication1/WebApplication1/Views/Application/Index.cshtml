@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p>Old values: @ViewBag.oldValue</p>
+        <p>New Value:@HttpContext.Current.Application["count"]</p>
+        <p>Session Id: @ViewBag.applicationId</p>
+        @Html.ActionLink("Click here to go to controller summary", "Index", "Summary");
+    </div>
+</body>
+</html>

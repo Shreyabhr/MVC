@@ -1,0 +1,11 @@
+D:\MVC\BankingApplication\Bank.BL\bin\Debug\Bank.BL.dll
+D:\MVC\BankingApplication\Bank.BL\bin\Debug\Bank.BL.pdb
+D:\MVC\BankingApplication\Bank.BL\obj\Debug\Bank.BL.csproj.AssemblyReference.cache
+D:\MVC\BankingApplication\Bank.BL\obj\Debug\Bank.BL.csproj.CoreCompileInputs.cache
+D:\MVC\BankingApplication\Bank.BL\obj\Debug\Bank.BL.dll
+D:\MVC\BankingApplication\Bank.BL\obj\Debug\Bank.BL.pdb
+D:\MVC\BankingApplication\Bank.BL\bin\Debug\Book.IBL.dll
+D:\MVC\BankingApplication\Bank.BL\bin\Debug\Book.Model.dll
+D:\MVC\BankingApplication\Bank.BL\bin\Debug\Book.IBL.pdb
+D:\MVC\BankingApplication\Bank.BL\bin\Debug\Book.Model.pdb
+D:\MVC\BankingApplication\Bank.BL\obj\Debug\Bank.BL.csproj.CopyComplete

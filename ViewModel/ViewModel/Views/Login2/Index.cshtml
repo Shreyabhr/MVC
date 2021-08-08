@@ -1,0 +1,31 @@
+﻿@model ViewModel.Models.LoginViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <h1>@Model.Username</h1>
+            <p>
+                @Html.LabelFor(m => m.Username)
+                @Html.TextBoxFor(m => m.Username)
+                @Html.ValidationMessageFor(m => m.Username)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Password)
+                @Html.TextBoxFor(m => m.Password)
+                @Html.ValidationMessageFor(m => m.Password)
+            </p>
+            <p>
+                <input type="submit" value="Submit" />
+            </p>
+            
+        }
+    </div>
+</body>
+</html>

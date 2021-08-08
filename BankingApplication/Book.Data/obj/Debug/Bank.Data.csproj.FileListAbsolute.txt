@@ -1,0 +1,6 @@
+D:\MVC\BankingApplication\Book.Data\bin\Debug\Book.Data.dll
+D:\MVC\BankingApplication\Book.Data\bin\Debug\Book.Data.pdb
+D:\MVC\BankingApplication\Book.Data\obj\Debug\Bank.Data.csproj.AssemblyReference.cache
+D:\MVC\BankingApplication\Book.Data\obj\Debug\Bank.Data.csproj.CoreCompileInputs.cache
+D:\MVC\BankingApplication\Book.Data\obj\Debug\Book.Data.dll
+D:\MVC\BankingApplication\Book.Data\obj\Debug\Book.Data.pdb
